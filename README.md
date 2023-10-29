@@ -7,7 +7,7 @@ SettingsService is an object designed for working with settings through `Propert
 ## Installation
 
 1. Open your project in [Google Apps Script Dashboard](https://script.google.com/).
-2. Copy the contents of the index.js file and paste it into a new file in your Google Apps Script project.
+2. Copy the contents of the `index.js` file and paste it into a new file in your Google Apps Script project.
 
 ## Usage
 
