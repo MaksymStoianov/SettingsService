@@ -466,11 +466,46 @@ SettingsService.Settings = class Settings {
 
 
   /**
+   * Вызывается при преобразовании объекта в соответствующее примитивное значение.
+   * @param {string} hint Строковый аргумент, который передаёт желаемый тип примитива: `string`, `number` или `default`.
+   * @return {string}
+   */
+  [Symbol.toPrimitive](hint) {
+    if (hint !== 'string') {
+      return null;
+    }
+
+    return this.constructor.name;
+  }
+
+
+
+  /**
+   * Возвращает значение текущего объекта.
+   * @return {string}
+   */
+  valueOf() {
+    return (this[Symbol.toPrimitive] ? this[Symbol.toPrimitive]() : this.constructor.name);
+  }
+
+
+
+  /**
+   * Геттер для получения строки, представляющей тег объекта.
+   * @return {string} Имя класса текущего объекта, используемое в `Object.prototype.toString`.
+   */
+  get [Symbol.toStringTag]() {
+    return this.constructor.name;
+  }
+
+
+
+  /**
    * Возвращает строку, представляющую объект.
    * @return {string}
    */
   toString() {
-    return this.constructor.name;
+    return (this[Symbol.toPrimitive] ? this[Symbol.toPrimitive]('string') : this.constructor.name);
   }
 
 };
