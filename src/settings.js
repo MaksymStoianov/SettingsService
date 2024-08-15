@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-// - 3
+
 
 /**
  * [`SettingsService`](https://github.com/MaksymStoianov/SettingsService) работает подобно [`PropertiesService`](https://developers.google.com/apps-script/reference/properties), но с улучшенными возможностями.
