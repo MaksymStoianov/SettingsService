@@ -150,7 +150,6 @@ class SettingsService {
 
 
 
-
 /**
  * Конструктор 'Settings' - представляет собой объект для работы с настройками.
  * @class               Settings
