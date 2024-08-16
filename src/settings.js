@@ -38,7 +38,6 @@
  * @author              Maksym Stoianov <stoianov.maksym@gmail.com>
  * @license             MIT
  * @tutorial            https://maksymstoianov.com/
- * @see                 [Source](https://script.google.com/home/projects/1eo_miOg4r4MU_G6_kPUBXI-W-8gejGWHOywMiplc1D1yk_dbNTR8zgKQ/edit)
  * @see                 [GitHub](https://github.com/MaksymStoianov/SettingsService)
  * 
  * @todo Использовать рекурсивный прокси для отслеживания изменений объектов в `settings._values`.
