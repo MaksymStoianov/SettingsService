@@ -22,10 +22,12 @@ Dies wird durch die parallele Speicherung von Daten im [**CacheService**](https:
 
 __Achtung!__ Die Verwendung dieses Dienstes kann die Ausführungszeit des Skripts verlängern.
 
+
 ## Installation
 
 1. Öffnen Sie Ihr Projekt im [Google Apps Script Dashboard](https://script.google.com/).
 2. Kopieren Sie den Inhalt der Datei [settings.js](../../src/settings.js) und fügen Sie ihn in eine neue Datei in Ihrem Google Apps Script-Projekt ein.
+
 
 ## Verwendung
 
