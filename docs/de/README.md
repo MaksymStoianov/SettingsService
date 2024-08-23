@@ -29,6 +29,11 @@ __Achtung!__ Die Verwendung dieses Dienstes kann die Ausführungszeit des Skript
 2. Kopieren Sie den Inhalt der Datei [settings.js](../../src/settings.js) und fügen Sie ihn in eine neue Datei in Ihrem Google Apps Script-Projekt ein.
 
 
+## Dokumentation
+
+Eine ausführliche Dokumentation finden Sie auf der Seite [Wiki](../../../../wiki/de).
+
+
 ## Verwendung
 
 ### Instanz der Einstellungen abrufen

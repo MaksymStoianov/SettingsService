@@ -22,10 +22,17 @@ This is achieved through parallel data storage in [**CacheService**](https://dev
 
 __Note!__ Using this service may increase script execution time.
 
+
 ## Installation
 
 1. Open your project in the [Google Apps Script Dashboard](https://script.google.com/).
 2. Copy the contents of the [settings.js](../../src/settings.js) file and paste it into a new file in your Google Apps Script project.
+
+
+## Documentation
+
+For detailed documentation, please visit the [Wiki](../../../../wiki/en) page.
+
 
 ## Usage
 
