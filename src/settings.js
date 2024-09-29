@@ -27,7 +27,7 @@
 /**
  * [`SettingsService`](https://github.com/MaksymStoianov/SettingsService) работает подобно [`PropertiesService`](https://developers.google.com/apps-script/reference/properties), но с улучшенными возможностями.
  * 
- * Текущая модификация уменьшае нагрузку на системные лимиты при чтении и записи свойств.
+ * Текущая модификация уменьшает нагрузку на системные лимиты при чтении и записи свойств.
  * Это достигается за счет параллельного хранения данных в [`CacheService`](https://developers.google.com/apps-script/reference/cache).
  * 
  * __Внимание!__ Использование этого сервиса может увеличить время выполнения скрипта.
